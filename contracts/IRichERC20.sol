@@ -1,4 +1,4 @@
-pragma solidity ^0.6.0;
+pragma solidity ^0.6.2;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 interface IRichERC20 is IERC20 

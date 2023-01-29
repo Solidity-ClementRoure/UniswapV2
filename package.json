@@ -4,5 +4,12 @@
     "@supercharge/strings": "^1.25.0",
     "@truffle/hdwallet-provider": "^2.0.3",
     "truffle-plugin-verify": "^0.5.21"
+  },
+  "dependencies": {
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.0.3",
+    "ganache-cli": "^6.12.2",
+    "loader": "^2.1.1",
+    "truffle": "^5.7.4"
   }
 }
