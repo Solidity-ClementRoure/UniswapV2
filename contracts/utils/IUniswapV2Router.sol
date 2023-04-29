@@ -60,4 +60,7 @@ interface IUniswapV2Router {
         address to,
         uint256 deadline
     ) external returns (uint256 amountToken, uint256 amountETH);
+
+    
+    function getAmountsOut(uint amountIn, address[] calldata path) external returns (uint[] memory amounts);
 }
